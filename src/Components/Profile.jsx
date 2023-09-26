@@ -1,4 +1,5 @@
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const Profile = () => {
   const cvDownload = () => {
@@ -17,9 +18,22 @@ const Profile = () => {
         />
       </div>
       <div className="section__text">
-        <p className="section__text__p1">Hello, I'm</p>
+        <p className="section__text__p1">Hello! 👋 I'm</p>
         <h1 className="title">Rakib Shanto</h1>
-        <p className="section__text__p2">Frontend Developer</p>
+        <p className="section__text__p2">
+          <TypeAnimation
+            sequence={[
+              "Frontend Developer",
+              1000,
+              "Eager Learner",
+              1000,
+              "Problem Solver",
+              1000,
+            ]}
+            speed={30}
+            repeat={Infinity}
+          />
+        </p>
         <div className="btn-container">
           <button className="btn  btn-color-2" onClick={cvDownload}>
             Download CV
