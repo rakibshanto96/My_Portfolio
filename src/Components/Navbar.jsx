@@ -1,6 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Navbar = () => {
+  const hideShowNav = () => {
+    /* Desktop Sticky Nav */
+
+    let lastScrollTop = 0;
+    let desktopNav = document.getElementById("desktop-nav");
+    let hamburgerNav = document.getElementById("hamburger-nav");
+    window.addEventListener("scroll", () => {
+      let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollTop > lastScrollTop) {
+        desktopNav.style.top = "-100px";
+        hamburgerNav.style.top = "-100px";
+      } else {
+        desktopNav.style.top = "0";
+        hamburgerNav.style.top = "0";
+      }
+      lastScrollTop = scrollTop;
+    });
+  };
+
+  useEffect(() => {
+    hideShowNav();
+  }, []);
+
   const toggleMenu = () => {
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");
