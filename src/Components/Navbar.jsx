@@ -17,10 +17,10 @@ const Navbar = () => {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#project">Project</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#experince">Experience</a>
+              <a href="#experience">Experience</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -43,12 +43,12 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#project" onClick={toggleMenu}>
-                Project
+              <a href="#projects" onClick={toggleMenu}>
+                Projects
               </a>
             </li>
             <li>
-              <a href="#experince" onClick={toggleMenu}>
+              <a href="#experience" onClick={toggleMenu}>
                 Experience
               </a>
             </li>

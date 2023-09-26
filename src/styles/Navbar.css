@@ -71,7 +71,8 @@ a:hover {
   top: 100%;
   right: 0;
   background-color: white;
-  width: fit-content;
+  width: 280px;
+  border-radius: 10px;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -91,7 +92,9 @@ a:hover {
 }
 
 .menu-links.open {
+  border-radius: 10px;
   max-height: 300px;
+  width: 280px;
 }
 
 .hamburger-icon.open span:first-child {
