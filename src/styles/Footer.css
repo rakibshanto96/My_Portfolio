@@ -1,6 +1,6 @@
 footer {
   height: 15vh;
-  margin: 0 1rem;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,4 +8,8 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+#footer {
+  background-color: lightgray;
 }
