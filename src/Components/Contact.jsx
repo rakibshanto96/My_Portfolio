@@ -8,6 +8,18 @@ const Contact = () => {
       <div className="contact-info-upper-container">
         <div className="contact-info-container">
           <img
+            src="./src/assets/location.png"
+            alt="location icon"
+            className="icon contact-icon"
+          />
+          <p>
+            <a href="https://maps.app.goo.gl/WeGbeMTESJQTu3Vs5" target="_blank">
+              Dhaka, Bangladesh
+            </a>
+          </p>
+        </div>
+        <div className="contact-info-container">
+          <img
             src="./src/assets/email.png"
             alt="email icon"
             className="icon contact-icon email-icon"

@@ -10,8 +10,8 @@ const Navbar = () => {
     window.addEventListener("scroll", () => {
       let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       if (scrollTop > lastScrollTop) {
-        desktopNav.style.top = "-100px";
-        hamburgerNav.style.top = "-100px";
+        desktopNav.style.top = "-85px";
+        hamburgerNav.style.top = "-85px";
       } else {
         desktopNav.style.top = "0";
         hamburgerNav.style.top = "0";
@@ -20,6 +20,7 @@ const Navbar = () => {
     });
   };
 
+  /* Re-render the navbar appearence or disappeearence */
   useEffect(() => {
     hideShowNav();
   }, []);

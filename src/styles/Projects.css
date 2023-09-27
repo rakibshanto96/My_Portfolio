@@ -1,5 +1,6 @@
 #projects {
   position: relative;
+  text-align: center;
 }
 .color-container {
   border-color: rgb(163, 163, 163);
@@ -20,4 +21,8 @@
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+#see-more {
+  font-size: 1.5rem;
 }

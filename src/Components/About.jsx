@@ -28,7 +28,7 @@ const About = () => {
             </div>
             <div className="details-container">
               <img
-                src="./src/assets/education.png"
+                src="./src/assets/education.svg"
                 alt="Education icon"
                 className="icon"
               />

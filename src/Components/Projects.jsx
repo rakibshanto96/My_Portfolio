@@ -96,8 +96,46 @@ const Projects = () => {
               </button>
             </div>
           </div>
+          <div className="details-container color-container">
+            <div className="article-container">
+              <img
+                src="./src/assets/project-4.png"
+                alt="project 1"
+                className="project-img"
+              />
+            </div>
+            <h2 className="experience-sub-title project-title">
+              Random Quote Machine
+            </h2>
+            <div className="btn-container">
+              <button
+                className="btn btn-color-2 project-btn"
+                onClick={() =>
+                  (location.href =
+                    "https://github.com/rakibshanto96/Random_Quote_Machine")
+                }
+              >
+                Github
+              </button>
+              <button
+                className="btn btn-color-2 project-btn"
+                onClick={() =>
+                  (location.href = "https://random-qm.netlify.app/")
+                }
+              >
+                Live Preview
+              </button>
+            </div>
+          </div>
         </div>
       </div>
+      <a
+        href="https://github.com/rakibshanto96?tab=repositories"
+        target="_blank"
+        id="see-more"
+      >
+        See More
+      </a>
       <img
         src="./src/assets/arrow.png"
         alt="arrow icon"
