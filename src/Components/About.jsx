@@ -8,7 +8,7 @@ const About = () => {
       <div className="section-container">
         <div className="section__pic-container">
           <img
-            src="./src/assets/about-pic.jpg"
+            src="/assets/about-pic.jpg"
             alt="About Pic"
             className="about-pic"
           />
@@ -17,7 +17,7 @@ const About = () => {
           <div className="about-containers">
             <div className="details-container">
               <img
-                src="./src/assets/experience.png"
+                src="/assets/experience.png"
                 alt="Experience icon"
                 className="icon"
               />
@@ -28,7 +28,7 @@ const About = () => {
             </div>
             <div className="details-container">
               <img
-                src="./src/assets/education.svg"
+                src="/assets/education.svg"
                 alt="Education icon"
                 className="icon"
               />
@@ -49,7 +49,7 @@ const About = () => {
           </div>
         </div>
         <img
-          src="./src/assets/arrow.png"
+          src="/assets/arrow.png"
           alt="arrow icon"
           className="icon arrow"
           onClick={() => (location.href = "./#experience")}

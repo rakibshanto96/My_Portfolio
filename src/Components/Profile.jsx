@@ -13,7 +13,7 @@ const Profile = () => {
       <div className="section__pic-container">
         <img
           id="profile-pic"
-          src="./src/assets/profile-pic.png"
+          src="/assets/profile-pic.png"
           alt="Rakib Shanto profile picture"
         />
       </div>
@@ -44,7 +44,7 @@ const Profile = () => {
         </div>
         <div id="socials-container">
           <img
-            src="./src/assets/linkedin.png"
+            src="/assets/linkedin.png"
             alt="My Linkedin profile"
             className="icon"
             onClick={() =>
@@ -52,7 +52,7 @@ const Profile = () => {
             }
           />
           <img
-            src="./src/assets/github.png"
+            src="/assets/github.png"
             alt="My Github profile"
             className="icon"
             onClick={() => (location.href = "https://github.com/rakibshanto96")}

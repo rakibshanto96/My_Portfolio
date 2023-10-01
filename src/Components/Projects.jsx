@@ -10,7 +10,7 @@ const Projects = () => {
           <div className="details-container color-container">
             <div className="article-container">
               <img
-                src="./src/assets/project-1.png"
+                src="/assets/project-1.png"
                 alt="project 1"
                 className="project-img"
               />
@@ -39,7 +39,7 @@ const Projects = () => {
           <div className="details-container color-container">
             <div className="article-container">
               <img
-                src="./src/assets/project-2.png"
+                src="/assets/project-2.png"
                 alt="project 1"
                 className="project-img"
               />
@@ -68,7 +68,7 @@ const Projects = () => {
           <div className="details-container color-container">
             <div className="article-container">
               <img
-                src="./src/assets/project-3.png"
+                src="/assets/project-3.png"
                 alt="project 1"
                 className="project-img"
               />
@@ -99,7 +99,7 @@ const Projects = () => {
           <div className="details-container color-container">
             <div className="article-container">
               <img
-                src="./src/assets/project-4.png"
+                src="/assets/project-4.png"
                 alt="project 1"
                 className="project-img"
               />
@@ -137,7 +137,7 @@ const Projects = () => {
         See More
       </a>
       <img
-        src="./src/assets/arrow.png"
+        src="/assets/arrow.png"
         alt="arrow icon"
         className="icon arrow"
         onClick={() => (location.href = "./#contact")}

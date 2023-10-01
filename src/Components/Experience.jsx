@@ -12,7 +12,7 @@ const Experience = () => {
             <div className="article-container">
               <article>
                 <img
-                  src="./src/assets/stack-icons/html.svg"
+                  src="/assets/stack-icons/html.svg"
                   alt="experience icon"
                   className="icon"
                 />
@@ -23,7 +23,7 @@ const Experience = () => {
               </article>
               <article>
                 <img
-                  src="./src/assets/stack-icons/css.svg"
+                  src="/assets/stack-icons/css.svg"
                   alt="experience icon"
                   className="icon"
                 />
@@ -34,7 +34,7 @@ const Experience = () => {
               </article>
               <article>
                 <img
-                  src="./src/assets/stack-icons/sass.svg"
+                  src="/assets/stack-icons/sass.svg"
                   alt="experience icon"
                   className="icon"
                 />
@@ -45,7 +45,7 @@ const Experience = () => {
               </article>
               <article>
                 <img
-                  src="./src/assets/stack-icons/bootstrap.svg"
+                  src="/assets/stack-icons/bootstrap.svg"
                   alt="experience icon"
                   className="icon"
                 />
@@ -56,7 +56,7 @@ const Experience = () => {
               </article>
               <article>
                 <img
-                  src="./src/assets/stack-icons/javascript.svg"
+                  src="/assets/stack-icons/javascript.svg"
                   alt="experience icon"
                   className="icon"
                 />
@@ -67,7 +67,7 @@ const Experience = () => {
               </article>
               <article>
                 <img
-                  src="./src/assets/stack-icons/react.svg"
+                  src="/assets/stack-icons/react.svg"
                   alt="experience icon"
                   className="icon"
                 />
@@ -85,7 +85,7 @@ const Experience = () => {
             <div className="article-container">
               <article>
                 <img
-                  src="./src/assets/stack-icons/wordpress.svg"
+                  src="/assets/stack-icons/wordpress.svg"
                   alt="experience icon"
                   className="icon"
                 />
@@ -96,7 +96,7 @@ const Experience = () => {
               </article>
               <article>
                 <img
-                  src="./src/assets/stack-icons/git.svg"
+                  src="/assets/stack-icons/git.svg"
                   alt="experience icon"
                   className="icon"
                 />
@@ -110,7 +110,7 @@ const Experience = () => {
         </div>
       </div>
       <img
-        src="./src/assets/arrow.png"
+        src="/assets/arrow.png"
         alt="arrow icon"
         className="icon arrow"
         onClick={() => (location.href = "./#projects")}
