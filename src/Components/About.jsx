@@ -40,12 +40,11 @@ const About = () => {
           </div>
           <div className="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              fugit sequi veritatis eos velit, soluta quidem praesentium, esse
-              non, exercitationem laborum autem ullam! Commodi, magni, veritatis
-              saepe delectus dolores, expedita temporibus dolore quis hic quod
-              sapiente eligendi explicabo tempore doloribus quidem eaque maxime
-              sed animi quisquam! Cupiditate nihil similique ipsa!
+              I'm a self-taught front-end developer, passionate about crafting
+              dynamic web experiences and also solving coding related problems.
+              I've applied my skills by building various projects. My passion
+              lies in creating intuitive and engaging web experiences, and I'm
+              excited to take on new challenges and opportunities in the field.
             </p>
           </div>
         </div>

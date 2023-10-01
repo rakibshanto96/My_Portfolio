@@ -25,9 +25,9 @@ const Profile = () => {
             sequence={[
               "Frontend Developer",
               1000,
-              "Eager Learner",
+              "Inquisitive",
               1000,
-              "Problem Solver",
+              "Convergent Thinker",
               1000,
             ]}
             speed={30}
@@ -36,7 +36,7 @@ const Profile = () => {
         </p>
         <div className="btn-container">
           <button className="btn  btn-color-2" onClick={cvDownload}>
-            Download CV
+            Download Resume
           </button>
           <button className="btn  btn-color-1" onClick={openContact}>
             Contact Info
