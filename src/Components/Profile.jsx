@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Profile = () => {
   const cvDownload = () => {
-    window.open("./src/assets/resume-example.pdf");
+    window.open("/assets/resume-example.pdf");
   };
   const openContact = () => {
     location.href = "./#contact";
