@@ -40,7 +40,7 @@ const Experience = () => {
                 />
                 <div>
                   <h3>SASS</h3>
-                  <p>Intermediate</p>
+                  <p>Basic</p>
                 </div>
               </article>
               <article>
@@ -62,7 +62,7 @@ const Experience = () => {
                 />
                 <div>
                   <h3>Javascript</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -73,7 +73,7 @@ const Experience = () => {
                 />
                 <div>
                   <h3>ReactJS</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
             </div>
