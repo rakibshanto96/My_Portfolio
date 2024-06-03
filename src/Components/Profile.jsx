@@ -19,7 +19,7 @@ const Profile = () => {
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello! 👋 I'm</p>
-        <h1 className="title">Rakib Shanto</h1>
+        <h1 className="title">Md. Rakib Hasan</h1>
         <p className="section__text__p2">
           <TypeAnimation
             sequence={[
